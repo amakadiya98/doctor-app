@@ -1,0 +1,277 @@
+.login-main {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.login-main .content-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+.login-main .banner-part {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  background: #fdf5f2;
+  align-items: center;
+  justify-content: center;
+}
+.login-main .banner-part .banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+.login-main .banner-part .banner-content img {
+  width: 50%;
+  opacity: 0.9;
+}
+.login-main .banner-part .banner-content .text-part {
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+.login-main .banner-part .banner-content .text-part h4 {
+  font-size: 30px;
+  line-height: 120%;
+  margin: 0;
+}
+.login-main .banner-part .banner-content .text-part p {
+  margin: 0;
+  font-size: 14px;
+}
+.login-main .form-part {
+  display: flex;
+  padding: 0px 100px;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+  height: 100%;
+}
+.login-main .form-part .close-btn {
+  all: unset;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  cursor: pointer;
+}
+.login-main .form-part .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.login-main .form-part .content .header-part {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.login-main .form-part .content .header-part h3 {
+  font-size: 36px;
+  line-height: 130%;
+  margin: 0;
+}
+.login-main .form-part .content .header-part p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.login-main .form-part .content .middle-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  gap: 10px;
+}
+.login-main .form-part .content .middle-form .input-part {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #adadad;
+  border-radius: 12px;
+  padding: 10px;
+  gap: 10px;
+}
+.login-main .form-part .content .middle-form .input-part p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #adadad;
+  margin-right: 15px;
+}
+.login-main .form-part .content .middle-form .input-part input {
+  all: unset;
+  font-size: 18px;
+  font-weight: 500;
+}
+.login-main .form-part .content .middle-form .info-text {
+  width: 85%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #adadad;
+  text-decoration: none;
+}
+.login-main .form-part .content .middle-form .info-text a {
+  text-decoration: none;
+  color: #ff6f48;
+  font-weight: 500;
+}
+.login-main .form-part .content .action-part {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-main .form-part .content .action-part .btn-orange {
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 30px;
+  background: #ff6f48;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white;
+  border: 1px solid #ff6f48;
+  font-weight: 500;
+}
+.login-main .form-part .content .action-part .btn-orange:hover {
+  color: #ff6f48;
+  background-color: #fff;
+}
+.login-main .form-part .content .action-part .btn-orange.outline {
+  background: #fff;
+  border: 1px solid #ff6f48;
+  color: #ff6f48;
+  font-weight: 700;
+}
+.login-main .form-part .content .action-part .btn-orange.outline:hover {
+  color: white;
+  background: #ff6f48;
+}
+.login-main .form-part .content .action-part .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 32px;
+}
+.login-main .form-part .content .action-part .divider span {
+  width: 100%;
+  background: #adadad;
+  height: 1px;
+}
+.login-main .form-part .content .action-part .divider .text {
+  margin: 0;
+  padding: 5px 20px;
+  background-color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content-modal {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+}
+.content-modal .top-btn-part {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.content-modal .modal-inside-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%;
+  gap: 10px;
+}
+.content-modal .modal-inside-content .edit-badge {
+  background-color: #ff6f4833 !important;
+  color: #ff6f48 !important;
+}
+.content-modal .modal-inside-content .heading {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.content-modal .modal-inside-content .desc-text {
+  font-size: 15px;
+  margin: 0;
+}
+.content-modal .modal-inside-content .mobileno {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.content-modal .modal-inside-content .otp-input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.content-modal .modal-inside-content .otp-input-group input {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content-modal .modal-inside-content .otp-input-group input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+.content-modal .modal-inside-content .btn-continue {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 90px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ff6f48;
+    border-radius: 30px;
+}
+
+.content-modal .modal-inside-content .notreceive-text {
+    color: #adadad;
+    font-size: 16px;
+    margin: 0;
+}
+.content-modal .modal-inside-content .resend-btn {
+    all: unset;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff6f48;
+    margin: -10px 0;
+}
+.content-modal .modal-inside-content .timer {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
