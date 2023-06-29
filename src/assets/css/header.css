@@ -25,6 +25,9 @@
   line-height: 100%;
   color: #b0b0b0;
 }
+.header-main .search-part input:focus{
+  border: 1px solid #ff6036;
+}
 .header-main .search-part input::placeholder {
   color: #b0b0b0;
   font-size: 16px;

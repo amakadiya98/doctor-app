@@ -30,8 +30,8 @@ const Sidebar = () => {
           <Link
             to='/dashboard'
             style={{ textDecoration: "none", color: "inherit" }}>
-            <div className={`${activePage === 'dashboard' ? 'nav-btn active' : 'nav-btn'}`}>
-              <img src={activePage === 'dashboard' ? homeActive : home} alt="" className='icon' />
+            <div className={` ${activePage === 'dashboard' || activePage === 'doctorList' ? 'nav-btn active' : 'nav-btn'}`}>
+              <img src={activePage === 'dashboard' || activePage === 'doctorList' ? homeActive : home} alt="" className='icon' />
               <p className='text'>Home</p>
             </div>
           </Link>

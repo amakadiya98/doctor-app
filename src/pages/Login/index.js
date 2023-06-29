@@ -6,6 +6,7 @@ import IndiaFlag from '../../assets/images/country-flag.svg';
 import { BiSolidDownArrow } from 'react-icons/bi';
 import { Modal, Badge } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import TruecalloerLogo from '../../assets/images/Truecaller_Logo.png'
 
 
 const Login = () => {
@@ -58,7 +59,7 @@ const Login = () => {
                 <p className='text'>OR</p>
               </div>
               <button className="btn btn-orange outline" onClick={() => setModalShow(true)}>
-                Login With truecaller
+                Login With <img src={TruecalloerLogo} alt='truecaller_logo' className='ms-1'/>
               </button>
             </div>
           </div>

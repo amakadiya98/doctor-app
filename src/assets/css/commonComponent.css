@@ -1,0 +1,195 @@
+.topBar{
+    padding: 22px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 15px #0000000f;
+    border-top: 1px solid #0000000f;
+}
+.topBar .theraphy-name .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1D2432;
+    margin-bottom: 0;
+}
+
+.breadcrumb{
+    margin-bottom: 0;
+}
+.breadcrumb-item.active{
+    color: #ADADAD;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.breadcrumb-item a{
+    font-size: 20px;
+    color: #1D2432;
+    font-weight: 400;
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "";
+    background-image: url('../images/left-arrow.svg');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+}
+/*  card data */
+.linkCard{
+    text-decoration: none;
+}
+.doctor-card{
+    border-radius: 14px;
+    box-shadow: 0px 1px 15px #0000000f;
+    background-color: #fff;
+    
+}
+.doctor-card .doctor-card-content{
+    display: flex;
+    align-items: flex-start;
+    padding: 21px 24px;
+}
+.doctor-card .doctor-card-content .image-part{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+}
+.doctor-card .doctor-card-content .text-part{
+    margin-left: 18px;
+}
+.doctor-card .doctor-card-content .text-part h5{
+    font-size: 19px;
+    color: #1D2432;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.doctor-card .doctor-card-content .text-part h6{
+    color: #FF6036;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.doctor-card .doctor-card-content .text-part p{
+    font-weight: 400;
+    color: #1D2432;
+    margin-bottom: 2px;
+}
+.doctor-card .doctor-card-content .text-part img{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.doctor-card .bottom-bar{
+    background-color: #FDF5F2;
+    color: #FF6036;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 0;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.doctor-card .bottom-bar p{
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+/* appointmentcard */
+.appointment-card, .assign-doctor-card{
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 1px 15px #0000000f;
+}
+.appointment-card .img-time-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.appointment-card .img-time-part .time-part p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 4px;
+}
+.appointment-card .img-time-part .time-part p.gray{
+    color: #ADADAD;
+}
+.appointment-card .text-part .name{
+    font-size: 21px;
+    font-weight: 500;
+}
+.appointment-card .text-part{
+    margin-top: 14px;
+}
+.appointment-card .text-part h6{
+    font-size: 15px;
+    color: #ADADAD;
+    font-weight: 400;
+}
+.appointment-card .text-part .date{
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #12D372;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 23px;
+    text-align: center;
+}
+
+/* assign doctor slider */
+.assign-doctor-card{
+    text-align: center;
+    padding: 0;
+    padding-top: 24px;
+}
+.assign-doctor-card .doctor-card-content .text-part h5{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #1D2432;
+}
+.assign-doctor-card .doctor-card-content .text-part p{
+    color: #FF6036;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.assign-doctor-card .doctor-card-content .owl-carousel .owl-item .image-part img{
+    width:auto !important;
+}
+.assign-slider .owl-item .image-part img{
+    width: auto !important;
+}
+.assign-slider.owl-carousel .owl-item img{
+    margin: auto;
+}
+.assign-slider .rating-part {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.assign-slider.owl-carousel .owl-item .rating-part img{
+    width: auto !important;
+    margin: 0;
+    margin-right: 6px;
+}
+.doctorList{
+    text-decoration: none;
+}
+.assign-slider .bottom-part{
+    background-color: #FDF5F2;
+    padding: 20px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.assign-slider .bottom-part p{
+    margin-bottom: 0;
+    color: #FF6036;
+    font-size: 15px;
+    font-weight: 500;
+}

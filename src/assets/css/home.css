@@ -30,3 +30,39 @@
   font-weight: 700;
   color: white;
 }
+
+.main-home-part{
+  padding: 30px 0 30px 30px;
+  height: 100vh;
+  overflow-y: auto;
+}
+.head-data h6{
+  font-size: 14px;
+  font-weight: 400;
+  color: #ADADAD;
+}
+.head-data h5{
+  font-size: 22px;
+  font-weight: 500;
+  color: #1D2432;
+}
+.slider-part{
+  margin-top: 25px;
+}
+.slider-title-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-title-block .slider-title{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.slider-title-block  a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #FF6036;
+  text-decoration: none;
+  padding-right: 30px;
+}
