@@ -1,0 +1,246 @@
+.main-content-part.topBox{
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+.top-orange-box{
+    background-color: #FDF5F2;
+    height: 150px;
+}
+.main-content-part.topBox .innerInfo{
+    padding: 0px 70px 0px 35px;
+    margin-top: -80px;
+}
+.main-content-part.topBox .innerInfo.withoutOrange{
+    margin-top: 20px;
+}
+.doctorDetailsCard{
+   border-radius: 14px;
+   background-color: #fff;
+   box-shadow: 0px 1px 15px #0000000f;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 35px 40px;
+}
+.doctorDetailsCard .doctorContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.doctorDetailsCard .doctorContent .imnage-part{
+    text-align: center;
+}
+.doctorDetailsCard .doctorContent .rating{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.doctorDetailsCard .doctorContent .rating p{
+    font-size: 16px;
+    margin-bottom: 0;
+    background-color: #FEF9E6;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+.doctorDetailsCard .doctorContent .doctorInfo{
+    text-align: center;
+    margin-top: 10px;
+}
+.doctorDetailsCard .doctorContent .doctorInfo h4{
+    font-size: 28px;
+    font-weight: 500;
+}
+.doctorDetailsCard .doctorContent .doctorInfo h5{
+    font-size: 21px;
+    font-weight: 400;
+    color: #FF6036;
+}
+.doctorDetailsCard .doctorContent .doctorInfo h6{
+    font-size: 21px;
+    font-weight: 400;
+}
+.doctorDetailsCard .doctorContent .logInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.doctorDetailsCard .doctorContent .logInfo .badge{
+    width: 68px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctorDetailsCard .doctorContent .logInfo .badge.call{
+    background-color: #DBF9EA;
+}
+.doctorDetailsCard .doctorContent .logInfo .badge.email{
+    background-color: #FDF5F2;
+}
+.doctorDetailsCard .doctorContent .expData{
+    margin: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.doctorDetailsCard .doctorContent .expData .part{
+    text-align: center;
+    border-right: 1px solid #EAEAEA;
+    flex: 1;
+}
+.doctorDetailsCard .doctorContent .expData .part:last-child{
+    border-right: 0;
+}
+.doctorDetailsCard .doctorContent .expData .part h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+.doctorDetailsCard .doctorContent .expData .part p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADADAD;
+    margin-bottom: 0;
+}
+.doctorDetailsCard .doctorContent  .aboutInfo h6{
+    font-size: 20px;
+    font-weight: 500;
+}   
+.doctorDetailsCard .doctorContent .aboutInfo p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ADADAD;
+}   
+.rightSmallCard{
+    text-align: center;
+}
+.rightSmallCard h6{
+    font-size: 26px;
+    font-weight: 600;
+}
+.rightSmallCard p{
+    font-size: 16px;
+    color: #ADADAD;
+    margin-bottom: 0;
+}
+/* common */
+.doctorDetailsCard.startdata{
+    align-items: flex-start;
+    padding: 0;
+}
+.doctorDetailsCard.startdata .rightPartData{
+    width: 100%;
+}
+.doctorDetailsCard.startdata .rightPartData .filed{
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin: 0 40px;
+}
+.doctorDetailsCard.startdata .rightPartData .filed:last-child{
+    border-bottom: 0;
+    padding-bottom: 30px;
+}
+.doctorDetailsCard .rightPartData  .filed h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+.doctorDetailsCard .rightPartData  .filed h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.doctorDetailsCard .rightPartData .locationTimeField{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.doctorDetailsCard .rightPartData p{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.doctorDetailsCard .rightPartData p span{
+    color: #12D372;
+}
+.doctorDetailsCard .rightPartData .no-slot{
+    font-size: 16px;
+    color: #ADADAD;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.doctorDetailsCard .rightPartData  p.badge{
+    font-size: 12px;
+    background-color: #12D3720f;
+    border-radius: 7px;
+    color: #12D372;
+    padding: 4px 12px;
+}
+
+.doctorDetailsCard .bottom-part{
+    background-color: #FDF5F2;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.doctorDetailsCard .bottom-part a{
+    color: #FF6036;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* radio badge part */
+.radio-badge-part{
+    margin-top: 15px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+label {
+    display: flex;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+label input {
+    position: absolute;
+    left: -9999px;
+}
+label input:checked + span {
+    background-color: #FF6036;
+    border: 1px solid #FF6036;
+    color: #fff;
+}
+label input:checked + span:before {
+    box-shadow: inset 0 0 0 0.4375em #00005c;
+}
+label span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 99em;
+    transition: 0.25s ease;
+    border: 1px solid #EAEAEA;
+    width: 80px;
+    text-align: center;
+}
+label span:hover {
+    background-color: #FF6036;
+    border: 1px solid #FF6036;
+    color: #fff;
+}

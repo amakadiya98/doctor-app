@@ -77,6 +77,14 @@
     color: #1D2432;
     margin-bottom: 2px;
 }
+.doctor-card .doctor-card-content .text-part p.gray{
+    font-size: 18px;
+    color: #ADADAD;
+}
+.doctor-card .doctor-card-content .text-part p.small{
+    font-size: 16px;
+    font-weight: 500;
+}
 .doctor-card .doctor-card-content .text-part img{
     margin-top: 6px;
     margin-right: 5px;
@@ -192,4 +200,17 @@
     color: #FF6036;
     font-size: 15px;
     font-weight: 500;
+}
+.componentBtn{
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #FF6036;
+    padding: 8px;
+}
+.componentBtn:hover{
+    background-color: #ff6036cf !important;
+    box-shadow: none;
+    border-color: #FF6036;
 }

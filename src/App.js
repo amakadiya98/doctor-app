@@ -8,7 +8,9 @@ import Dashboard from './pages/Dashboard';
 import Point from './pages/Point'
 import Patient from './pages/Patient'
 import DoctorList from './pages/DoctorList';
-
+import DoctorDetails from './pages/DoctorDetails'
+import DoctorAllSlot from './pages/DoctorAllSlot'
+import PatientList from './pages/PatientList'
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
         <Route path='/patient' element={<Patient />} />
         <Route path='/point' element={<Point />} />
         <Route path='/doctorList' element={<DoctorList />} />
+        <Route path='/doctorDetails' element={<DoctorDetails/>} />
+        <Route path='/doctorSlot' element={<DoctorAllSlot/>} />
+        <Route path='/patientList' element={<PatientList/>}/>
       </Routes>
     </BrowserRouter>
   );

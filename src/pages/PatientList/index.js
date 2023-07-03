@@ -2,35 +2,26 @@ import React from 'react'
 import '../../assets/css/home.css'
 import Layout from '../../layout'
 import TopBar from '../../components/TopBarNavigation'
-import DoctorCard from '../../components/DoctorCard'
+import PatientCard from '../../components/PatientCard'
 import { Row, Col } from 'react-bootstrap';
 import { useLocation, Link, useNavigate } from 'react-router-dom'
-const DoctorList = () => {
+const PatientList = () => {
   return (
     <Layout>
       <TopBar />
       <div className='main-content-part'>
         <Row className='g-4'>
           <Col lg="6">
-            <Link
-              to='/doctorDetails' className='linkCard'>
-              <DoctorCard />
-            </Link>
+          <PatientCard />
           </Col>
           <Col lg="6">
-            <Link to='/' className='linkCard'>
-              <DoctorCard />
-            </Link>
+          <PatientCard />
           </Col>
           <Col lg="6">
-            <Link to='/' className='linkCard'>
-              <DoctorCard />
-            </Link>
+          <PatientCard />
           </Col>
           <Col lg="6">
-            <Link to='/' className='linkCard'>
-              <DoctorCard />
-            </Link>
+          <PatientCard />
           </Col>
         </Row>
       </div>
@@ -38,4 +29,4 @@ const DoctorList = () => {
   )
 }
 
-export default DoctorList
+export default PatientList

@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 .layout-main .sider{
   display: flex;
@@ -28,15 +29,35 @@
   background: white;
   box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
   padding-left: 265px;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 .layout-main .content-part .content {
   width: 100%;
   padding-left: 265px;
   height: 100vh;
+  margin-top: 80px;
+  overflow: hidden;
 }
 
 .main-content-part{
   padding: 35px 70px 35px 35px;
+  height: 80vh;
+  overflow: auto;
+}
+
+.theme-button{
+  background-color: #FF6036;
+  font-size: 16px;
+  border-radius: 28px;
+  min-width: 300px;
+  padding: 14px;
+}
+.theme-button:hover, .theme-button:focus, .btn:focus-visible{
+  background-color: #ff6036cf !important;
+  box-shadow: none;
+  border-color: #FF6036;
+}
+.theme-button span{
+  font-weight: 500;
 }
