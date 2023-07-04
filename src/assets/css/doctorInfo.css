@@ -202,12 +202,12 @@
 .radio-badge-part{
     margin-top: 15px;
 }
-form {
+.radio-badge-part form {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-label {
+.radio-badge-part label {
     display: flex;
     cursor: pointer;
     font-size: 12px;
@@ -216,19 +216,19 @@ label {
     overflow: hidden;
     text-align: center;
 }
-label input {
+.radio-badge-part label input {
     position: absolute;
     left: -9999px;
 }
-label input:checked + span {
+.radio-badge-part label input:checked + span {
     background-color: #FF6036;
     border: 1px solid #FF6036;
     color: #fff;
 }
-label input:checked + span:before {
+.radio-badge-part label input:checked + span:before {
     box-shadow: inset 0 0 0 0.4375em #00005c;
 }
-label span {
+.radio-badge-part label span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +239,7 @@ label span {
     width: 80px;
     text-align: center;
 }
-label span:hover {
+.radio-badge-part label span:hover {
     background-color: #FF6036;
     border: 1px solid #FF6036;
     color: #fff;

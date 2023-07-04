@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .layout-main {
   /* display: flex; */
   width: 100vw;
@@ -45,13 +48,40 @@
   height: 80vh;
   overflow: auto;
 }
-
+.main-content-part.excersiceList{
+  padding: 35px 0;
+}
+.main-content-part.excersiceList .exercise-tab-part{
+  padding: 0 70px 0 35px;
+}
+.button-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.theme-outline-btn{
+  font-size: 16px;
+  border-radius: 28px;
+  min-width: 300px;
+  padding: 14px;
+  border: 1px solid #FF6036;
+  background-color: transparent;
+  color: #FF6036;
+  font-weight: 600;
+}
+.theme-outline-btn:hover, .theme-outline-btn:focus, .theme-outline-btn:focus-visible{
+  background-color: #ff6036cf !important;
+  box-shadow: none;
+  border-color: #FF6036;
+  color: #fff;
+}
 .theme-button{
   background-color: #FF6036;
   font-size: 16px;
   border-radius: 28px;
   min-width: 300px;
   padding: 14px;
+  font-weight: 600;
 }
 .theme-button:hover, .theme-button:focus, .btn:focus-visible{
   background-color: #ff6036cf !important;
@@ -60,4 +90,167 @@
 }
 .theme-button span{
   font-weight: 500;
+}
+/* modal css */
+.modal-content {
+  border-radius: 12px;
+  border: 1px solid #707070;
+  padding: 20px 30px;
+}
+.btn-close{
+  position: absolute;
+  right: 15px;
+  top: 13px;
+}
+.modal-header{
+  text-align: center;
+  justify-content: center;
+  border-bottom: 1px solid #EAEAEA;
+  padding: 0;
+}
+.modal-header .modal-title{
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+.modal-body{
+  border: 0;
+  padding: 24px 0;
+}
+.body-content .body-title{
+  font-size: 16px;
+  font-weight: 500;
+}
+textarea.form-control{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ADADAD;
+  padding: 18px;
+}
+textarea.form-control:focus{
+  box-shadow: none;
+  border-color: #EAEAEA;
+}
+.modal-footer{
+  border: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-content .theme-button{
+  min-width: 250px;
+  padding: 8px;
+}
+.modal-content .footerLink{
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1D2432;
+}
+.file-area {
+  width: 100%;
+  position: relative;
+  border: 1px dashed #1D2432;
+  border-radius: 8px;
+  height: 150px;
+}
+.file-area input[type=file] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.file-area .file-dummy {
+  width: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  /* border: 2px dashed rgba(255, 255, 255, 0.2); */
+  height: 150px;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.file-area .file-dummy .success {
+  display: none;
+}
+.file-area:hover .file-dummy {
+  background: rgba(255, 255, 255, 0.1);
+}
+.file-area input[type=file]:focus + .file-dummy {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.file-area input[type=file]:valid + .file-dummy {
+  border-color: rgb(248 212 203 / 23%);
+  background-color: rgb(248 212 203 / 23%);
+}
+.file-area input[type=file]:valid + .file-dummy .success {
+  display: inline-block;
+}
+.file-area input[type=file]:valid + .file-dummy .default {
+  display: none;
+}
+
+
+/* progressbar */
+
+.progressBar .progressText{
+  display: flex;
+  justify-content: space-between;
+}
+
+.progressBar .progressText p{
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  color: #1D2432;
+}
+.progressBar .progress{
+  height: 10px;
+  background-color: #FDF5F2;
+  border-radius: 14px;
+}
+.progressBar .progress .progress-bar{
+  background-color: #FF6036;
+  border-radius: 14px;
+}
+
+/* searchpart */
+.serchPart .searchInput input{
+  border-radius: 46px;
+  box-shadow: 0px 1px 15px #0000000f;
+  padding: 23px 10px 23px 82px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 0;
+  width: 100%;
+}
+.serchPart .searchInput{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  position: relative;
+  margin: 0 auto 35px;
+}
+.serchPart .searchInput .searchIcon{
+  position: absolute;
+  left: 30px;
+  top: 22px;
+}
+.serchPart .searchInput input:focus{
+  outline: 0;
+}
+/* note-part */
+.note-part{
+  background-color: #FDF5F3;
+  color: #FF6036;
+  padding: 30px;
 }

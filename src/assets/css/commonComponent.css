@@ -214,3 +214,176 @@
     box-shadow: none;
     border-color: #FF6036;
 }
+.componentBtn.green-btn{
+    background-color: #12D372;
+    width: 50%;
+}
+.componentBtn.componentBtn.green-btn{
+    background-color: #12D372 !important;
+    box-shadow: none;
+    border-color: #12D372;
+}
+/* upcomingPatientsCard */
+.upcomingPatientsCard  .bottom-bar {
+    background-color: #F5F2F2;
+    color: #1D2432;
+}
+.upcomingPatientsCard .progressBar{
+    padding: 0 24px 24px;
+}
+
+/* report card */
+.report-card{
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 14px;
+    box-shadow: 0px 1px 15px #0000000f;
+    margin-top: 12px;
+}
+.report-card .image-block{
+    height: 44px;
+    width: 44px;
+    background-color: #FDF5F2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.report-card  .fileName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.report-card  .fileNo{
+    font-size:12px;
+    color:#ADADAD;
+}
+.doctorDetailsCard .nextLink{
+    display: block;
+    height: 44px;
+    width: 44px;
+    border: 1px solid #E3E3E3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctorDetailsCard{
+    position: relative;
+}
+.doctorDetailsCard .edit-button{
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 1px 15px #0000000f;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+/* exercise tab part */
+.exercise-tab-part .nav-tabs{
+    margin-top: 25px;
+}
+.exercise-tab-part .nav-tabs,.exercise-tab-part .nav-tabs .nav-link{
+    border: 0;
+}
+.exercise-tab-part .nav-tabs .nav-item.show .nav-link, .exercise-tab-part .nav-tabs .nav-link.active{
+    border: 0;
+}
+.exercise-tab-part .nav-tabs .nav-link:hover, .exercise-tab-part .nav-tabs .nav-link:focus, .exercise-tab-part .nav-tabs .nav-link.active{
+    border: 0;
+    background-color: #FF6036;
+    color: #fff;
+}
+.exercise-tab-part .nav-tabs .nav-link{
+    border-radius: 26px;
+    background-color: #FDF5F2;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF6036;
+    min-width: 90px;
+    margin-right: 10px;
+}
+.exercise-card{
+    box-shadow: 0px 1px 15px #0000000f;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+}
+.exercise-card .img-text-part{
+    display: flex;
+    align-items: center;
+}
+.exercise-card .text-part h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+.exercise-card .text-part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ADADAD;
+}
+.tab-content{
+    margin-top: 25px;
+}
+
+/* patientInfoData */
+.patientInfoData{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.patientInfoData h6{
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.appointmentPart{
+    height: 50vh;
+    overflow: auto;
+}
+/* ex-card */
+.ex-card{
+    box-shadow: 0px 1px 15px #0000000f;
+    padding: 25px;
+    text-align: center;
+    border-radius: 14px;
+}
+.ex-card h6{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 14px;
+    color: #1D2432;
+}
+/* link-card */
+.common-link-card-part .link-card{
+    box-shadow: 0px 1px 15px #0000000f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+.common-link-card-part .link-card:last-child{
+    margin-bottom: 0;
+}
+.common-link-card-part .link-card .text{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1D2432;
+}
+.common-link-card-part{
+    max-width: 70%;
+    margin: auto;
+}
