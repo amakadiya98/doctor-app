@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import Point from './pages/Point'
+import Points from './pages/Points'
 import Patient from './pages/Patient'
 import DoctorList from './pages/DoctorList';
 import DoctorDetails from './pages/DoctorDetails'
@@ -20,9 +20,14 @@ import ExcersiceList from './pages/ExcersiceList'
 import PersonalInformation from './pages/PersonalInformation'
 import OperationalInformation from './pages/OperationalInformation'
 import ContactInformation from './pages/ContactInformation'
-import PatientDetailsForm from './pages/PatientDetailsForm'
+import DoctorDetailsForm from './pages/DoctorDetailsForm'
 import MyAppointment from './pages/MyAppointment'
 import Settings from './pages/Settings'
+import PatientContactDetails from './pages/PatientContactDetails'
+import Chat from './pages/Chat'
+import AppointSetting from './pages/AppointSetting'
+import PatientContactInformation from './pages/PatientContactInformation'
+import Foot from './pages/Foot'
 function App() {
   return (
     <BrowserRouter>
@@ -31,7 +36,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/patient' element={<Patient />} />
-        <Route path='/point' element={<Point />} />
+        <Route path='/point' element={<Points />} />
         <Route path='/doctorList' element={<DoctorList />} />
         <Route path='/doctorDetails' element={<DoctorDetails/>} />
         <Route path='/doctorSlot' element={<DoctorAllSlot/>} />
@@ -45,9 +50,14 @@ function App() {
         <Route path='/personalInformation' element={<PersonalInformation/>}/>
         <Route path='/operationalInformation' element={<OperationalInformation/>}/>
         <Route path='/contactInformation' element={<ContactInformation/>}/>
-        <Route path='/patientDetailsForm' element={<PatientDetailsForm/>}/>
+        <Route path='/doctorDetailsForm' element={<DoctorDetailsForm/>}/>
         <Route path='/myAppointment' element={<MyAppointment/>}/>
         <Route path='/settings' element={<Settings />}/>
+        <Route path='/patientContactDetails' element={<PatientContactDetails />}/>
+        <Route path='/chat' element={<Chat />}/>
+        <Route path='/appointSetting' element={<AppointSetting />}/>
+        <Route path='/patientContactInformation' element={<PatientContactInformation />}/>
+        <Route path='/foot' element={<Foot />} />
       </Routes>
     </BrowserRouter>
   );

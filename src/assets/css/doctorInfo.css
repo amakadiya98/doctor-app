@@ -244,3 +244,22 @@
     border: 1px solid #FF6036;
     color: #fff;
 }
+
+.radio-badge-outline  label span{
+    width: auto;
+    min-width: 80px;
+}
+.radio-badge-part.radio-badge-outline label input:checked + span {
+    background-color: transparent;
+    border: 1px solid #FF6036;
+    color: #FF6036;
+}
+.radio-badge-part.radio-badge-outline label span:hover {
+    background-color: transparent;
+    border: 1px solid #FF6036;
+    color: #FF6036;
+}
+.radio-badge-outline label{
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}

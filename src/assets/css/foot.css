@@ -1,0 +1,28 @@
+.foot-page{
+    overflow-x: hidden;
+    height: 100vh;
+}
+.foot-sidebar{
+    background-color: #fff;
+    box-shadow: 0px 1px 15px #0000000f;
+    padding: 30px 24px;
+    margin-top: 1px;
+    height: 86vh;
+}
+.foot-page .nav.nav-pills{
+    margin-top: 30px;
+}
+.foot-page .nav.nav-pills .nav-item{
+    box-shadow: 0px 1px 15px #0000000f;
+    padding: 16px;
+    margin-bottom: 15px;
+    border-radius: 14px;
+}
+.foot-page .nav.nav-pills  .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1D2432;
+}
+.foot-page .nav.nav-pills  .nav-link.active{
+    background-color: transparent;
+}

@@ -270,6 +270,16 @@
 }
 .doctorDetailsCard{
     position: relative;
+    z-index: 2;
+}
+.doctorDetailsCard.back-orange::before{
+    background-color: #FDF5F2;
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 100%;
+    top: 0;
+    z-index: -1;
 }
 .doctorDetailsCard .edit-button{
     height: 60px;
@@ -283,6 +293,7 @@
     right: 15px;
     top: 15px;
     cursor: pointer;
+    background-color: #fff;
 }
 
 /* exercise tab part */
@@ -383,7 +394,100 @@
     font-weight: 500;
     color: #1D2432;
 }
+.common-link-card-part .link-card .iconPart .iconRound{
+    height: 35px;
+    width: 35px;
+    background-color: #FDF5F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.common-link-card-part .link-card .iconPart {
+    display: flex;
+    align-items: center;
+}
 .common-link-card-part{
     max-width: 70%;
     margin: auto;
 }
+.common-link-card-part .img-block img{
+    opacity: 0.6;
+}
+/* doctorName */
+.doctorName{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.doctorName p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.doctorName p.email{
+    font-size: 17px;
+    color: #ADADAD;
+}
+
+
+/* checkbox */
+
+.control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 26px;
+    width: 26px;
+    background: #e6e6e6;
+    border-radius: 50%;
+  }
+  .control:hover input ~ .control__indicator,
+  .control input:focus ~ .control__indicator {
+    background: #ccc;
+  }
+  .control input:checked ~ .control__indicator {
+    background: #FF6036;
+  }
+  .control:hover input:not([disabled]):checked ~ .control__indicator,
+  .control input:checked:focus ~ .control__indicator {
+    background: #FF6036;
+  }
+  .control input:disabled ~ .control__indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  .control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  .control input:checked ~ .control__indicator:after {
+    display: block;
+  }
+  .control--checkbox .control__indicator:after {
+    left: 6px;
+    top: 8px;
+    height: 10px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-image: url('../images/check.svg');
+  }
+  .control--checkbox input:disabled ~ .control__indicator:after {
+    border-color: #7b7b7b;
+  }
+  

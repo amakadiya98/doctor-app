@@ -4,13 +4,12 @@ import Layout from '../../layout'
 import TopBar from '../../components/TopBarNavigation'
 import UploadIcon from '../../assets/images/upload.svg'
 import { Button } from 'react-bootstrap';
-const PersonalInformation = () => {
+const PatientContactDetails = () => {
   return (
     <Layout>
       <TopBar />
       <div className='main-content-part'>
         <div className='form-data'>
-          <h5 className='title'>Personal Information</h5>
           <div className='filed'>
             <label>Patient Name</label>
             <input type='text' className='input-field' placeholder='Jack Williams' />
@@ -20,20 +19,15 @@ const PersonalInformation = () => {
             <input type='text' className='input-field' placeholder='25' />
           </div>
           <div className='filed'>
-            <label>Add Image</label>
-            <div className='upload-part mt-2'>
-            <div class="form-group file-area">
-                <input type="file" name="images" id="images" required="required" multiple="multiple"/>
-              <div class="file-dummy">
-                <div class="success">Great, your files are selected. Keep on.</div>
-                <div class="default"><div className='image-block mb-2'>
-                  <img src={UploadIcon} alt='icon'/>
-                  </div>Add report here (png, jpg, pdf)</div>
-              </div>
-            </div>
-  
-            </div>
+            <label>Injury Body Part</label>
+            <input type='text' className='input-field' placeholder='Knee' />
           </div>
+          <div className='filed'>
+              <label>Injury information</label>
+              <div class="mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Write here…'></textarea>
+            </div>
+            </div>
           <div className='buttonPart mt-5 d-flex justify-content-center'>
                 <Button className='theme-button'>Continue</Button>
             </div>
@@ -43,4 +37,4 @@ const PersonalInformation = () => {
   )
 }
 
-export default PersonalInformation
+export default PatientContactDetails
