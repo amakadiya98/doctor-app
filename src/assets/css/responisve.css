@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px) {
+    .main-content-part{
+        padding: 20px 20px 0px 20px;
+    }
+    .main-content-part.topBox .innerInfo{
+        padding: 20px 20px 0px 20px;
+    }
+    .componentBtn.green-btn{
+        width: 100%;
+    }
+    .doctorDetailsCard{
+        margin-bottom: 12px;
+    }
+    .top-orange-box{
+        height: 100px;
+    }
+    .login-main .content-wrapper{
+        grid-template-columns: 100%;
+    }
+    .login-main .form-part .content{
+        align-items: center;
+    }
+    .login-main .form-part .content .header-part{
+        width: 100%;
+        max-width: 100%;
+    }
+    .doctorDetailsCard.startdata .rightPartData .filed{
+        margin: 0 18px;
+    }
+    .exercise-tab-part .nav-tabs .nav-link{
+        margin-bottom: 10px;
+    }
+    .serchPart .searchInput{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .main-content-part.topBox .innerInfo .doctorDetailsCard{
+        margin-bottom: 20px;
+    }
+    .common-link-card-part{
+        max-width: 100%;
+    }
+    .form-data {
+        max-width: 100%;
+    }
+    .header-main .search-part input{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .topBar{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .layout-main .content-part .header-part{
+        padding-left: 0;
+    }
+    .header-main{
+        padding: 12px;
+    }
+    .layout-main .sider{
+        display: none;
+    }
+    .layout-main .content-part .content{
+        padding-left: 0;
+    }
+    .main-content-part{
+        height: 70vh;
+    }
+    .login-main .banner-part .banner-content .text-part p{
+        display: none;
+    }
+    .login-main .banner-part .banner-content .text-part{
+        width: 100%;
+        max-width: 100%;
+    }
+    .login-main .form-part, .login-main .banner-part .banner-content{
+        padding: 20px;
+    }
+}

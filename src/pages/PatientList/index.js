@@ -11,16 +11,16 @@ const PatientList = () => {
       <TopBar />
       <div className='main-content-part'>
         <Row className='g-4'>
-          <Col lg="6">
+          <Col xl="6" lg="12">
           <PatientCard />
           </Col>
-          <Col lg="6">
+          <Col xl="6" lg="12">
           <PatientCard />
           </Col>
-          <Col lg="6">
+          <Col xl="6" lg="12">
           <PatientCard />
           </Col>
-          <Col lg="6">
+          <Col xl="6" lg="12">
           <PatientCard />
           </Col>
         </Row>

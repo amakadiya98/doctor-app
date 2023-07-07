@@ -25,7 +25,7 @@ const PatientDetails = () => {
         <div className='top-orange-box'></div>
         <div className='innerInfo'>
             <Row>
-                <Col lg={5}>
+                <Col xl={5} lg={12}>
                     <div className='doctorDetailsCard'>
                         <div className='edit-button'>
                             <img src={EditIcon} alt='edit' />
@@ -77,7 +77,7 @@ const PatientDetails = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={7}>
+                <Col xl={7} lg={12}>
                 <div className='doctorDetailsCard mb-3'>
                     <Row className='w-100'>
                         <Col md={6}>
