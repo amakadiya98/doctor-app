@@ -7,11 +7,13 @@ import { BiSolidDownArrow } from 'react-icons/bi';
 import { Modal, Badge } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import TruecalloerLogo from '../../assets/images/Truecaller_Logo.png'
+import ReactFlagsSelect from 'react-flags-select';
 
 
 const Login = () => {
   const navigate = useNavigate();
   const [showModal, setModalShow] = useState(false);
+  const [selected, setSelected] = useState("IN");
 
   const closeModal = () => setModalShow(false);
 
@@ -42,10 +44,20 @@ const Login = () => {
             </div>
             <div className="middle-form">
               <div className="input-part">
-                <img src={IndiaFlag} alt="country-flag" />
-                <p className='country-code'>
-                  <BiSolidDownArrow size={14} color='#adadad' />
-                  +91</p>
+                <ReactFlagsSelect
+                  selected={selected}
+                  onSelect={(code) => setSelected(code)}
+                  countries={['US','GB','IN']}
+                  selectedSize={16}
+                  optionsSize={16}
+                  className="menu-flags"
+                  selectButtonClassName="menu-flags-button"
+                  customLabels={{
+                    "US": { primary: "+1"},
+                    "GB": { primary: "+44"},
+                    "IN": { primary: "+91"}
+                  }}
+                />
                 <input type="text" defaultValue={9912348485} />
               </div>
               <p className='info-text'>By signing up you are agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
@@ -59,7 +71,7 @@ const Login = () => {
                 <p className='text'>OR</p>
               </div>
               <button className="btn btn-orange outline" onClick={() => setModalShow(true)}>
-                Login With <img src={TruecalloerLogo} alt='truecaller_logo' className='ms-1'/>
+                Login With <img src={TruecalloerLogo} alt='truecaller_logo' className='ms-1' />
               </button>
             </div>
           </div>
