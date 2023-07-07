@@ -50,7 +50,7 @@ const ContactInformation = () => {
                   <option value="3">State Three</option>
                 </Form.Select>
                 </Col>
-                <Col lg="6"  >
+                <Col lg="6"   className='mb-3'>
                 <Form.Select aria-label="Default select example">
                   <option>County</option>
                   <option value="1">County One</option>
@@ -58,7 +58,7 @@ const ContactInformation = () => {
                   <option value="3">County Three</option>
                 </Form.Select>
                 </Col>
-                <Col lg="6">
+                <Col lg="6"  className='mb-3'>
                 <Form.Select aria-label="Default select example"  className='mb-3'>
                   <option>Pincode</option>
                   <option value="1">Pincode One</option>

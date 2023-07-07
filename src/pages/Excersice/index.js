@@ -28,7 +28,7 @@ const Excersice = () => {
           </div>
         </div>
         <Row className='g-4'>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                     <img src={CardEx1} alt='CardEx1' />
@@ -36,7 +36,7 @@ const Excersice = () => {
                 <h6>Ankle</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                     <img src={CardEx2} alt='CardEx1' />
@@ -44,7 +44,7 @@ const Excersice = () => {
                 <h6>Stomach</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                 <img src={CardEx3} alt='CardEx1' />
@@ -52,7 +52,7 @@ const Excersice = () => {
                 <h6>Elbow</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                 <img src={CardEx4} alt='CardEx1' />
@@ -60,7 +60,7 @@ const Excersice = () => {
                 <h6>Face</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                 <img src={CardEx5} alt='CardEx1' />
@@ -68,7 +68,7 @@ const Excersice = () => {
                 <h6>Head</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                 <img src={CardEx6} alt='CardEx1' />
@@ -76,7 +76,7 @@ const Excersice = () => {
                 <h6>Finger</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                 <img src={CardEx7} alt='CardEx1' />
@@ -84,7 +84,7 @@ const Excersice = () => {
                 <h6>Knee</h6>
             </div>
           </Col>
-          <Col lg="3">
+          <Col xl="3" lg="4" md="6" sm="12">
             <div className='ex-card'>
                 <div className='ex-image'>
                 <img src={CardEx8} alt='CardEx1' />

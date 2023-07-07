@@ -4,16 +4,40 @@ import Patient from '../assets/images/patient.png'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
+const options = {
+    loop:true,
+    nav:false,
+    dots:false,
+    margin:30, 
+    responsive: {
+        0: {
+            items: 1,
+        },
+        400: {
+            items: 1,
+        },
+        600: {
+            items: 1.5,
+        },
+        700: {
+            items: 1.5,
+        },
+        1000: {
+            items: 2.2,
+        },
+        1366:{
+            items: 3.5,
+        },
+        1520:{
+            items: 4.5,
+        }
+    },
+}
 const AppointmentCard = () => {
     return (
         <div class='container-fluid' >      
-        <OwlCarousel items={3.5}
-            className="owl-theme"
-            loop
-            nav={false}
-            dots={false}
-            margin={30} >
+        <OwlCarousel {...options}
+            className="owl-theme">
             <div>
                 <div className='appointment-card'>
                     <div className='doctor-card-content'>

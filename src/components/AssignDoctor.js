@@ -8,15 +8,42 @@ import FillStar from '../assets/images/star.svg'
 import '../assets/css/commonComponent.css'
 import { useLocation, Link, useNavigate } from 'react-router-dom'
 
+const options = {
+    loop:true,
+    nav:false,
+    dots:false,
+    margin:30, 
+    responsive: {
+        0: {
+            items: 1,
+        },
+        400: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        700: {
+            items: 1.5,
+        },
+        1000: {
+            items: 2.2,
+        },
+        1366:{
+            items: 3.5,
+        },
+        1520:{
+            items: 4.5,
+        }
+    },
+}
+
 const AppointmentCard = () => {
     return (
         <div class='container-fluid' >      
-        <OwlCarousel items={3.5}
+        <OwlCarousel {...options}
             className="owl-theme assign-slider"
-            loop
-            nav={false}
-            dots={false}
-            margin={30} >
+          >
             <div>
                 <Link to="/doctorList" className='doctorList'>
                     <div className='assign-doctor-card'>
