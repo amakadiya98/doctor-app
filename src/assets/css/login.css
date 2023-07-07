@@ -107,6 +107,27 @@
   padding: 10px;
   gap: 10px;
 }
+.login-main .form-part .content .middle-form .input-part .menu-flags{
+  padding-bottom: 0;
+}
+.login-main .form-part .content .middle-form .input-part .menu-flags .menu-flags-button{
+  border: none;
+  font-weight: 400;
+  color: #adadad;
+  padding: 0;
+}
+.login-main .form-part .content .middle-form .input-part .menu-flags .menu-flags-button:after{
+  margin: 0;
+  border-top: 5px solid #adadad;
+}
+.login-main .form-part .content .middle-form .input-part .menu-flags .menu-flags-button[aria-expanded="true"]:after {
+  border-bottom: 5px solid #adadad;
+  border-top: 0;
+  margin-bottom: 2px;
+}
+.login-main .form-part .content .middle-form .input-part .menu-flags .selectOptions{
+  width: 100px;
+}
 .login-main .form-part .content .middle-form .input-part p {
   margin: 0;
   font-size: 14px;
@@ -116,7 +137,7 @@
 }
 .login-main .form-part .content .middle-form .input-part input {
   all: unset;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 .login-main .form-part .content .middle-form .info-text {
@@ -197,11 +218,17 @@
   flex-direction: column;
   background: white;
   width: 100%;
+  position: relative;
 }
 .content-modal .top-btn-part {
   display: flex;
   width: 100%;
   justify-content: flex-end;
+}
+.content-modal .top-btn-part .close-btn{
+  position: absolute;
+  top: -40px;
+  right: -30px;
 }
 .content-modal .modal-inside-content {
   display: flex;
