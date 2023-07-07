@@ -28,6 +28,7 @@ import Chat from './pages/Chat'
 import AppointSetting from './pages/AppointSetting'
 import PatientContactInformation from './pages/PatientContactInformation'
 import Foot from './pages/Foot'
+import ApplicationSettingCalendar from './pages/ApplicationSettingCalendar'
 function App() {
   return (
     <BrowserRouter>
@@ -58,6 +59,7 @@ function App() {
         <Route path='/appointSetting' element={<AppointSetting />}/>
         <Route path='/patientContactInformation' element={<PatientContactInformation />}/>
         <Route path='/foot' element={<Foot />} />
+        <Route path='/applicationSettingCalendar' element={<ApplicationSettingCalendar />} />
       </Routes>
     </BrowserRouter>
   );

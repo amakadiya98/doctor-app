@@ -48,7 +48,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_12" />
+                                                    <label for="checkbox_12"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -60,7 +63,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_11" />
+                                                    <label for="checkbox_11"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -72,7 +78,10 @@ const History = () => {
                                                                     <p>3 Times</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div className='icon'> <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_9" />
+                                                    <label for="checkbox_9"></label>
+                                                    </div></div>
                                                         </div>
                                                     </div>
                                                 </Tab>
@@ -88,7 +97,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_8" />
+                                                    <label for="checkbox_8"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -100,7 +112,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_7" />
+                                                    <label for="checkbox_7"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -112,7 +127,10 @@ const History = () => {
                                                                     <p>3 Times</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_6" />
+                                                    <label for="checkbox_6"></label>
+                                                    </div>
                                                         </div>
                                                     </div>
                                                 </Tab>
@@ -128,7 +146,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_4" />
+                                                    <label for="checkbox_4"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -140,7 +161,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_5" />
+                                                    <label for="checkbox_5"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -152,7 +176,10 @@ const History = () => {
                                                                     <p>3 Times</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_2" />
+                                                    <label for="checkbox_2"></label>
+                                                    </div>
                                                         </div>
                                                     </div>
                                                 </Tab>
@@ -168,7 +195,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_1" />
+                                                    <label for="checkbox_1"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -180,7 +210,10 @@ const History = () => {
                                                                     <p>15 Reps</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_121" />
+                                                    <label for="checkbox_121"></label>
+                                                    </div>
                                                         </div>
                                                         <div className='exercise-card mb-3'>
                                                             <div className='img-text-part'>
@@ -192,7 +225,10 @@ const History = () => {
                                                                     <p>3 Times</p>
                                                                 </div>
                                                             </div>
-                                                            <div className='icon'>round</div>
+                                                            <div class="checkbox me-2">
+                                                    <input type="checkbox" id="checkbox_1211" />
+                                                    <label for="checkbox_1211"></label>
+                                                    </div>
                                                         </div>
                                                     </div>
                                                 </Tab>
